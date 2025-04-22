@@ -4,9 +4,10 @@ function mostrarPropiedades (propiedad, contenedorID, max = 4) {
     for (let i  = 0 ; i < Math.min (max, propiedad.length); i++) {
         const propiedades = propiedad [i] ; 
         contenedor.innerHTML += `
-        <div class = "card" > 
-         <img src = "${propiedades.src}"  alt ="${propiedad.nombre}">
-         <h3> ${propiedades.nombre}</h3>
+        <div class = "card"  style="width: 18rem;" > 
+         <img class= "img" src = "${propiedades.src}"  alt ="${propiedad.nombre}">
+         <div class="card-body" >
+         <h3 class="title"> ${propiedades.nombre}</h3>
          <p> ${propiedades.descripcion}</p>
          <p> ${propiedades.ubicacion}</p>
          <p> ${propiedades.habitaciones}</p>
