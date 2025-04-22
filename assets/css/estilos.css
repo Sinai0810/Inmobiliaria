@@ -1,0 +1,43 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.cards-container {
+   display: flex;
+   font-size: 14px;
+   gap: 15px;
+   padding-bottom: 25px;
+
+   
+}
+
+#container-venta {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+   
+
+}
+#container-alquiler {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+
+}
+
+.card img{
+    height: 200px;
+   
+}

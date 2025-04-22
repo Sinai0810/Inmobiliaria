@@ -1,0 +1,1 @@
+mostrarPropiedades ( propiedades_venta, "propiedades-venta", propiedades_alquiler.length)
